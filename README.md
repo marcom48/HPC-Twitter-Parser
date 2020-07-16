@@ -10,3 +10,11 @@ This repository contains an application to parse large collections of Twitter da
 
 
 Final mark: 10/10
+
+## Execution
+The slurm scripts provided were designed to be used within the Spartan facility.  
+To execute locally:
+```bash
+pip3 install -r requirements.txt
+srun -n <number_of_processes> python3 app.py <path_to_twitter>
+```
